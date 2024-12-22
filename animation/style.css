@@ -1,0 +1,71 @@
+.wao {
+    position: relative;
+    margin-top: 20px;
+}
+
+.wao input {
+    color: #565656;
+    background: none;
+    padding: 0.625rem;
+    border: 2px solid #030104;
+}
+
+.wao label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: none;
+    padding-inline: 0.25rem;
+    pointer-events: none;
+    translate: 10ms;
+    background-color: 10ms;
+    border-color: 10ms;
+}
+
+.wao:focus-within label,
+.wao:not(:has(:placeholder-shown)) label {
+    translate: 0.625rem -1rem;
+    border-color: #030104;
+}
+
+.wao ::placeholder {
+    color: transparent;
+}
+
+.wah {
+    position: relative;
+    margin-top: 20px;
+}
+
+.wah input {
+    color: #565656;
+    background: none;
+    padding: 0.625rem;
+    border: 2px solid #030104;
+}
+
+.wah label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: none;
+    padding-inline: 0.25rem;
+    pointer-events: none;
+    translate: 10ms;
+    background-color: 10ms;
+    border-color: 10ms;
+}
+
+.wah:focus-within label,
+.wah:not(:has(:placeholder-shown)) label {
+    translate: 0.625rem -1rem;
+    border-color: #030104;
+}
+
+.wah::placeholder {
+    color: transparent;
+}
